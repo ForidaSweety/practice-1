@@ -2,3 +2,200 @@
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
+.header{
+    background-image: url('../image/donation13.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+.bannar{
+    display:flex;
+    align-items: center;
+    margin: 0 120px;
+}
+.bannar-title{
+    font-weight: 700;
+    font-size: 85px;
+    color: white;
+    text-align: center;
+    padding: 174px 150px;
+    padding-bottom: 15px;
+}
+.bannar-description{
+    font-size: 18px;
+   color: white;
+   text-align: center;
+   padding: 15px 250px 25px 261px ; 
+}
+.text-primary{
+    color:rgb(242, 255, 0);
+}
+.btn-primary{
+    display: flex;
+    background: #FF5959;border-radius: 5px;
+    height: 60px;
+    width: 100px;
+    align-items: center;
+    margin: 0px 650px 175px;
+}
+main{
+    max-width:1140px;
+    margin: auto;
+}
+section{
+    margin-top: 100px;
+}
+.section-title{
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 35px;
+}
+.section-description{
+    color: #7b5757;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.donate{
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 50px 50px;
+    text-align: center;
+}
+.donate-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.color-amount-button .donate-amounts{
+ background-color: #f6a5a5;
+  color: #b30505;
+  font-size: 20px;
+    font-weight: 400;
+    padding: 20px;
+
+}
+.donate .donate-amount{
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #eae6e6f2;
+    padding: 20px;
+}
+.button .btn-primary-key{
+    display:flex;
+     background-color: #FF5959;
+    padding:15px 40px;
+    margin: 80px 500px;
+}
+/* our donate plan */
+.skills-container{
+    display: flex;
+    gap:24px;
+}
+.skill{
+    background: rgb(190, 237, 241);
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 20px;
+}
+.skill-title{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.skill-dscription{
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+    
+}
+/* second section */
+.first{
+    display: flex;
+    gap: 24px;
+    padding-right: 50px;
+}
+
+.first .section-title{
+    padding: 0;
+    text-align: left;
+}
+.first-one .btn-primary-key{
+    background-color: #b7f044;
+    padding:15px 40px;
+    margin-left: 0px;
+}
+.first-one .section-description{   text-align:left;
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575; 
+}
+.div-image .image{
+    width: 456px;
+height: 477px;
+padding-left: 50px;
+padding-bottom: 0;
+}
+/* 3rd section */
+.second{
+    display: flex;
+    gap: 24px;
+    
+}
+.dive-image .images{
+    width: 456px;
+height: 477px;
+padding-right:50px ;
+}
+.second-one .section-description{   text-align:left;
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575; 
+}
+.second .section-title{
+    padding: 0;
+    text-align: left;
+}
+.second-one .btn-primary-key{
+    background-color: #b7f044;
+    padding:15px 40px;
+}
+/* contact section */
+.contact{
+    margin-top: 80px;
+    padding: 50px;
+    
+}
+.contact .section-description{
+    margin: 0 50px;
+}
+.last-section{
+    background-color: antiquewhite;
+    padding: 60px;
+    text-align: center;
+    text-decoration: none;
+    margin: 20px 200px;
+}
+.last-section input[type="email"],input[type="submit"]{
+    padding:18px 20px ;
+}
+.last-section input[type="submit"]{
+    background-color: #FF5959;
+}
+/* footer */
+.footer{
+    background-color: black;
+    color: aliceblue;
+    padding-bottom: 70px;
+    text-align: center;
+}
+.footer .last{
+  
+ color: #FF5959;
+ padding: 10px;
+}
+.footer .para{
+    font-size: x-small;
+}
